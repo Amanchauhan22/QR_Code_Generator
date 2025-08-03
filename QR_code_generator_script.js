@@ -1,4 +1,3 @@
-
 let qrcode = new QRCode(
     document.querySelector(".qrcode")
 );
@@ -18,4 +17,5 @@ function generateQr() {
             document.querySelector(
                 "input"
             ).value);
+
 }}
